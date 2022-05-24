@@ -1,7 +1,7 @@
 {
   "name": "npmtest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Dette er den officielle hjemmeside til virksomheden Chocolate Clubs hjemmeside",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch --update --style=compressed css:css"
@@ -13,5 +13,13 @@
   },
   "devDependencies": {
     "sass": "^1.49.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofNyb/kickstarter-master.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SofNyb/kickstarter-master/issues"
+  },
+  "homepage": "https://github.com/SofNyb/kickstarter-master#readme"
 }
