@@ -1,3 +1,3 @@
-# Bootstrap & SASS Kick start projekt
+# Chocolate Club hjemmeside
 
-Klon dette projekt og kom hurtigt i gang med dit næste projekt.
+Dette er den officielle hjemmeside til virksomheden Chocolate Clubs hjemmeside
