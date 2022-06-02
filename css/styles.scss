@@ -43,3 +43,12 @@ a:link {
 .toplogo {
 	height: 70px;
 }
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
