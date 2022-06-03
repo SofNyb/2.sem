@@ -4,7 +4,7 @@
 
 body {
 	margin: 0;
-	overflow: hidden;
+	font-family: "kepler";
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,5 +57,47 @@ a:link {
 .hero {
 	padding: 0;
 	margin: 0;
+	position: relative;
+}
+
+.hero .slogan {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%,-50%);
+	cursor: pointer;
+	padding: 12px 24px;
+}
+
+.hero .cc {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%,-50%);
+	cursor: pointer;
+	padding: 12px 24px;
+}
+
+.hero .begivenhed {
+	position: absolute;
+	top: 66%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%,-50%);
+	cursor: pointer;
+	padding: 12px 24px;
+}
+
+.hero .btn {
+	position: absolute;
+	top: 70%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%,-50%);
+	cursor: pointer;
+	padding: 12px 24px;
+	text-decoration: underline;
 }
 
