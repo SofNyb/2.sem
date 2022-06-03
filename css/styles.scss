@@ -4,6 +4,7 @@
 
 body {
 	margin: 0;
+	overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -52,3 +53,9 @@ a:link {
 	border: none;
 	box-shadow: none;
 }
+
+.hero {
+	padding: 0;
+	margin: 0;
+}
+
