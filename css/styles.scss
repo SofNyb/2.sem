@@ -4,7 +4,8 @@
 
 body {
 	margin: 0;
-	font-family: "kepler";
+	font-family: pragmatica, sans-serif;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -101,3 +102,6 @@ a:link {
 	text-decoration: underline;
 }
 
+.fa-brands {
+	padding: 50px;
+}
