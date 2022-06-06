@@ -84,22 +84,24 @@ a:link {
 .hero .begivenhed {
 	position: absolute;
 	top: 66%;
-	left: 15%;
+	left: 25%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%,-50%);
 	cursor: pointer;
 	padding: 12px 24px;
+	font-size: 3vw;
 }
 
 .hero .btn {
 	position: absolute;
 	top: 70%;
-	left: 15%;
+	left: 19.5%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%,-50%);
 	cursor: pointer;
 	padding: 12px 24px;
 	text-decoration: underline;
+	font-size: 2vw;
 }
 
 .fa-brands {
@@ -113,8 +115,4 @@ a:link {
 
 .cc {
 	font-size: 1.5vw;
-}
-
-.begivenhed {
-	font-size: 3vw;
 }
