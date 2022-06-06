@@ -34,14 +34,6 @@ img {
 	height: auto;
 }
 
-footer {
-	text-decoration: none;
-}
-
-a:link {
-	color: white;
-}
-
 .toplogo {
 	height: 70px;
 }
@@ -53,6 +45,13 @@ a:link {
 	outline: none;
 	border: none;
 	box-shadow: none;
+}
+
+.herobillede {
+	max-width: 100%;
+	height: auto;
+	object-fit: fill;
+	justify-self: center;
 }
 
 .hero {
@@ -110,6 +109,7 @@ a:link {
 
 .fa-brands {
 	margin: 0 5px 0 5px;
+	color: white;
 }
 
 .slogan {
@@ -143,8 +143,9 @@ a:link {
 	color: white;
 }
 
-a.bundmenu:hover{
-	color: #f18805;
+.topmenu {
+	text-decoration: none;
+	color: white;
 }
 
 .copy {
@@ -153,7 +154,7 @@ a.bundmenu:hover{
 	color: black;
 }
 
-a.copy:hover {
-	text-decoration: none;
+a.bundmenu:hover, a.topmenu:hover, a.fa-brands:hover, a.copy:hover{
 	color: #f18805;
+	text-decoration: none;
 }
