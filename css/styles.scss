@@ -105,7 +105,7 @@ a:link {
 }
 
 .fa-brands {
-	padding: 50px;
+	margin: 0 5px 0 5px;
 }
 
 .slogan {
@@ -127,4 +127,29 @@ a:link {
 
 .knap, .knap2 {
 	font-size: 3vw;
+}
+
+.shop {
+	margin-top: 20px;
+}
+
+.bundmenu {
+	font-size: 2vw;
+	text-decoration: none;
+	color: white;
+}
+
+a.bundmenu:hover{
+	color: #f18805;
+}
+
+.copy {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	color: black;
+}
+
+a.copy:hover {
+	text-decoration: none;
+	color: #f18805;
 }
