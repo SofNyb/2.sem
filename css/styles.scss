@@ -35,7 +35,8 @@ img {
 }
 
 .toplogo {
-	height: 70px;
+	width: 100px;
+	height: auto;
 }
 
 .navbar-toggler,
@@ -100,7 +101,6 @@ img {
 	cursor: pointer;
 	padding: 12px 24px;
 	text-decoration: underline;
-	font-size: 2vw;
 }
 
 /*.fa-basket-shopping, .fa-bars  {
@@ -113,34 +113,11 @@ img {
 }
 
 .slogan {
-	font-size: 2vw;
 	font-weight: 700;
-}
-
-.cc {
-	font-size: 1.5vw;
-}
-
-.knap {
-	margin-top: 20px;
-}
-
-.knap2 {
-	margin-bottom: 20px;
-}
-
-.knap, .knap2 {
-	font-size: 3vw;
 }
 
 .shop {
 	margin-top: 20px;
-}
-
-.bundmenu {
-	font-size: 2vw;
-	text-decoration: none;
-	color: white;
 }
 
 .topmenu {
@@ -168,6 +145,8 @@ a.bundmenu:hover, a.topmenu:hover, a.fa-brands:hover, a.copy:hover{
 
 .CTA-error {
 	font-size: 25px;
+	font-weight: 700;
+	color: black;
 }
 
 .footerCat {

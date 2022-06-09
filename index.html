@@ -33,11 +33,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav align-items-end">
-                <a class="nav-link active topmenu" aria-current="page" href="#">Shop</a>
-                <a class="nav-link topmenu" href="#">Kontakt</a>
-                <a class="nav-link topmenu" href="#">Om os</a>
-                <a class="nav-link topmenu" href="#">Værksted</a>
-                <a class="nav-link topmenu" href="#">Events</a>
+                <a class="nav-link active topmenu" aria-current="page" href="#" style="margin: 20px;"><h5>Shop</h5></a>
+                <a class="nav-link topmenu" href="#" style="margin: 20px;"><h5>Kontakt</h5></a>
+                <a class="nav-link topmenu" href="#" style="margin: 20px;"><h5>Om os</h5></a>
+                <a class="nav-link topmenu" href="#" style="margin: 20px;"><h5>Værksted</h5></a>
+                <a class="nav-link topmenu" href="#" style="margin: 20px;"><h5>Events</h5></a>
             </div>
         </div>
     </div>
@@ -51,13 +51,13 @@
             <p class="cc text-menufarve">CHOCOLATE CLUB</p>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
-            <p class="begivenhed text-footerfarve">Kommende begivenhed?</p>
+            <h3 class="begivenhed text-footerfarve">Kommende begivenhed?</h3>
             <button class="btn text-menufarve" type="button">Få hjælp til desserten her</button>
         </div>
     </div>
 </div>
 
-<div class="container-sm">
+<div class="container-sm" style="margin-bottom: 20px;">
     <div class="row">
         <div class="col-6">
             <img src="images/chokolade_med_hindbærfyld.jpg" alt="chokolade med hindbærfyld">
@@ -65,14 +65,14 @@
         <div class="col-6">
             <img src="images/overtrukkede_jordbær.jpg" alt="chokoladeovertrukkede jordbær">
         </div>
-        <div class="col-12 text-center knap">
+        <div class="col-12 text-center" style="margin: 20px 0 20px 0;">
             <p>Uanset din smag</p>
         </div>
         <div class="col-12 text-center bestil">
             <button class="btn bg-menufarve text-light" type="button">BESTIL ONLINE</button>
         </div>
-        <div class="col-12 text-center knap2">
-            <div>Har <strong class="text-footerfarve b">Chocolatiersene</strong> dig dækket</div>
+        <div class="col-12 text-center" style="margin: 20px 0 20px 0";>
+            <p>Har <strong class="text-footerfarve">Chocolatiersene</strong> dig dækket</p>
         </div>
         <div class="col-6" align="center">
             <img src="images/chokoladekage.jpg" alt="chokoladekage" width="88%">
@@ -83,28 +83,67 @@
     </div>
 </div>
 
-<footer>
-    <div class="container-fluid bg-footerfarve text-center">
-        <ul class="navbar-nav">
-            <div class="navbar-nav">
-                <a class="nav-link active bundmenu shop" aria-current="page" href="#">Shop</a>
-                <hr>
-                <a class="nav-link bundmenu" href="#">Kontakt</a>
-                <hr>
-                <a class="nav-link bundmenu" href="#">Om os</a>
-                <hr>
-                <a class="nav-link bundmenu" href="#">Værksted</a>
-                <hr>
-                <a class="nav-link bundmenu" href="#">Events</a>
-                <hr>
-                <a class="nav-link" href="#">
-                    <i class="fa-brands fa-facebook-square fa-4x"></i>
-                    <i class="fa-brands fa-instagram-square fa-4x"></i></a>
-                <a class="nav-link copy" href="#"><i class="fa-regular fa-copyright"></i> 2022 Chocolate Club</a>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-footerfarve text-light">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+            <span>Følg os på de sociale medier:</span>
+        </div>
+
+        <div>
+            <a href="#" class="me-4 text-reset">
+                <i class="fa-brands fa-facebook-square fa-4x"></i>
+            </a>
+            <a href="#" class="me-4 text-reset">
+                <i class="fa-brands fa-instagram-square fa-4x"></i>
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>Chocolate Club</h6>
+                    <p class="fw-bold">Åbningstider:</p>
+                    <p>Mandag - torsdag: 10.00-17.30</p>
+                    <p>Fredag - søndag: 12.00-16.30</p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">KONTAKT OS</h6>
+                    <p><i class="fas fa-home me-3"></i>Valby Langgade 74,</p>
+                    <p><i class="fas fa-home me-3 text-footerfarve"></i>2500 Valby</p>
+                    <p><i class="fas fa-envelope me-3"></i>chocolateclub@cc.com</p>
+                    <p><i class="fas fa-phone me-3"></i> +45 43 88 56 97</p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Menu</h6>
+                    <p><a href="#" class="text-reset">Shop</a></p>
+                    <p><a href="#" class="text-reset">Værksted</a></p>
+                    <p><a href="#" class="text-reset">Events</a></p>
+                    <p><a href="#" class="text-reset">Om os</a></p>
+                    <p><a href="#" class="text-reset">Kontakt</a></p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Hurtige genveje</h6>
+                    <p><a href="#" class="text-reset">Privacy Policy</a></p>
+                    <p><a href="#" class="text-reset">Terms of Service</a></p>
+                    <p><a href="#" class="text-reset">Smileyrapport</a></p>
+                    <p><a href="#" class="text-reset">FAQ</a></p>
+                </div>
             </div>
-        </ul>
+        </div>
+    </section>
+
+    <div class="text-dark text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">© 2022 Copyright:
+        <a class="text-dark fw-bold" href="https://mdbootstrap.com/">Chocolate Club</a>
     </div>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
