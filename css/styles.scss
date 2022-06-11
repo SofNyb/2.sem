@@ -242,3 +242,11 @@ a.bundmenu:hover, a.topmenu:hover, a.fa-brands:hover, a.copy:hover{
 		height: 500px;
 	}
 }
+
+.img-circle {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+
+}
