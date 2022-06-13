@@ -96,18 +96,18 @@ a.topmenu:visited, a.topmenu:active {
 }
 
 .hero .slogan {
+	text-align: center;
 	position: absolute;
-	top: 30%;
+	top: 20%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%,-50%);
 	cursor: pointer;
-	padding: 12px 24px;
 }
 
 .hero .cc {
 	position: absolute;
-	top: 35%;
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%,-50%);
@@ -195,8 +195,8 @@ a.bundmenu:hover, a.topmenu:hover, a.fa-brands:hover, a.copy:hover{
 	background-size: cover;
 }
 
-/*Glidende overgang i bunden af skærmen*/
 .zoom:before{
+	content: '';
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -230,6 +230,7 @@ a.bundmenu:hover, a.topmenu:hover, a.fa-brands:hover, a.copy:hover{
 }
 
 .zoom__text-animation:after {
+	content: '';
 	position: absolute;
 	width: 100%;
 	transform: scaleX(0);
