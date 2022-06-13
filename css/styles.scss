@@ -57,6 +57,18 @@ img {
 	font-size: 18px;
 }
 
+.kurv {
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+	.kurv {
+		position: absolute !important;
+		top: -9999px !important;
+		left: -9999px !important;
+	}
+}
+
 @media screen and (max-width: 1230px) {
 	.slogan, {
 		font-size: 1.5rem;
@@ -181,7 +193,6 @@ a.bundmenu:hover, a.topmenu:hover, a.fa-brands:hover, a.copy:hover{
 
 /*Glidende overgang i bunden af skærmen*/
 .zoom:before{
-	content: '';
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -215,7 +226,6 @@ a.bundmenu:hover, a.topmenu:hover, a.fa-brands:hover, a.copy:hover{
 }
 
 .zoom__text-animation:after {
-	content: '';
 	position: absolute;
 	width: 100%;
 	transform: scaleX(0);
